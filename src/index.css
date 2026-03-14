@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@keyframes bgZoom {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1.06);
+  }
+
+  50% {
+    transform: scale(1.12);
+  }
+
+  75% {
+    transform: scale(1.06);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-bgZoom {
+  animation: bgZoom 18s ease-in-out infinite;
+  will-change: transform;
+}
