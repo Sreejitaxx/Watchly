@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-   apiKey: "AIzaSyB1gsa8hKWmvv8-xxFISi5cYmFYemoZZw0",
+   apiKey: "AIzaSyDYtQtA_X9Km6QeQ1ssv35xd1mONVJXa3E",
   authDomain: "watchly-13cd9.firebaseapp.com",
   projectId: "watchly-13cd9",
   storageBucket: "watchly-13cd9.firebasestorage.app",
