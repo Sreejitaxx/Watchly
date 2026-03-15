@@ -20,8 +20,19 @@
     transform: scale(1);
   }
 }
-
+body {
+  background-color: black;
+}
 .animate-bgZoom {
   animation: bgZoom 18s ease-in-out infinite;
   will-change: transform;
+}
+/* Hide scrollbar but allow scrolling */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
